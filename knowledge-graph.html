@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Knowledge Graph Project | Tariq Bin Ziyad
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+     NAVBAR
+========================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                Tariq<span>.</span>
+            </a>
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="#overview">Overview</a>
+                </li>
+
+                <li>
+                    <a href="#features">Features</a>
+                </li>
+
+                <li>
+                    <a href="#technology">Technology</a>
+                </li>
+
+                <li>
+                    <a href="#prototype">Prototype</a>
+                </li>
+
+            </ul>
+
+
+            <a href="index.html#projects" class="nav-button">
+                Back to Portfolio
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================
+     PROJECT HERO
+========================= -->
+
+    <section class="project-detail-hero">
+
+        <div class="project-detail-container">
+
+            <p class="section-label">
+                FINAL YEAR PROJECT
+            </p>
+
+
+            <h1>
+                Knowledge Graph for
+                <span>Quran, Hadith & Bible</span>
+            </h1>
+
+
+            <p class="project-hero-description">
+
+                An intelligent knowledge-based search application
+                designed to connect concepts across Quran, Hadith
+                and Bible data using semantic search,
+                knowledge graphs and modern backend technologies.
+
+            </p>
+
+
+            <div class="project-tech project-hero-tech">
+
+                <span>Python</span>
+
+                <span>Django</span>
+
+                <span>FastAPI</span>
+
+                <span>Neo4j</span>
+
+                <span>ChromaDB</span>
+
+                <span>Sentence Transformers</span>
+
+            </div>
+
+
+            <div class="hero-buttons">
+
+                <a href="#prototype" class="primary-button">
+                    View Prototype
+                </a>
+
+
+                <a href="index.html#projects" class="secondary-button">
+                    ← Back to Projects
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+     OVERVIEW
+========================= -->
+
+    <section id="overview" class="section project-detail-section">
+
+        <p class="section-label">
+            PROJECT OVERVIEW
+        </p>
+
+
+        <h2 class="section-title">
+            What does this project do?
+        </h2>
+
+
+        <div class="project-overview-grid">
+
+
+            <div class="project-description">
+
+                <p>
+
+                    The project was designed to provide a
+                    concept-based search experience across
+                    three religious sources: Quran, Hadith
+                    and Bible.
+
+                </p>
+
+
+                <p>
+
+                    Instead of depending only on exact keyword
+                    matching, the system is designed to understand
+                    related concepts and return relevant passages,
+                    references and relationships.
+
+                </p>
+
+
+                <p>
+
+                    Users can search concepts such as
+                    <strong>"God"</strong>,
+                    <strong>"Messenger"</strong> or other topics
+                    and explore related information through an
+                    interactive knowledge graph.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="project-stat-container">
+
+                <div class="project-stat">
+
+                    <h3>3</h3>
+
+                    <p>
+                        Religious Sources
+                    </p>
+
+                </div>
+
+
+                <div class="project-stat">
+
+                    <h3>AI</h3>
+
+                    <p>
+                        Semantic Search
+                    </p>
+
+                </div>
+
+
+                <div class="project-stat">
+
+                    <h3>Graph</h3>
+
+                    <p>
+                        Relationship Exploration
+                    </p>
+
+                </div>
+
+
+                <div class="project-stat">
+
+                    <h3>API</h3>
+
+                    <p>
+                        FastAPI Backend
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+     PROBLEM
+========================= -->
+
+    <section class="section project-detail-section">
+
+        <p class="section-label">
+            THE PROBLEM
+        </p>
+
+
+        <h2 class="section-title">
+            Why did I build it?
+        </h2>
+
+
+        <div class="problem-card">
+
+            <p>
+
+                Traditional keyword-based search can struggle when
+                different words represent the same or related ideas.
+
+                The goal of this project was to provide a more
+                intelligent way to explore religious texts by
+                connecting concepts, aliases, references and
+                relationships between different sources.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+     FEATURES
+========================= -->
+
+    <section id="features" class="section project-detail-section">
+
+        <p class="section-label">
+            FEATURES
+        </p>
+
+
+        <h2 class="section-title">
+            Key functionality
+        </h2>
+
+
+        <div class="feature-grid">
+
+
+            <div class="feature-card">
+
+                <div class="feature-number">
+                    01
+                </div>
+
+                <h3>
+                    Concept Search
+                </h3>
+
+                <p>
+
+                    Search religious concepts instead of relying
+                    only on exact keyword matching.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card">
+
+                <div class="feature-number">
+                    02
+                </div>
+
+                <h3>
+                    Semantic Search
+                </h3>
+
+                <p>
+
+                    Uses embeddings to identify text with
+                    similar meaning.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card">
+
+                <div class="feature-number">
+                    03
+                </div>
+
+                <h3>
+                    Knowledge Graph
+                </h3>
+
+                <p>
+
+                    Explore relationships between concepts
+                    through connected graph nodes.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card">
+
+                <div class="feature-number">
+                    04
+                </div>
+
+                <h3>
+                    Multiple Sources
+                </h3>
+
+                <p>
+
+                    Search Quran, Hadith and Bible
+                    information from one interface.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card">
+
+                <div class="feature-number">
+                    05
+                </div>
+
+                <h3>
+                    Source References
+                </h3>
+
+                <p>
+
+                    Search results include references to the
+                    original religious source.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card">
+
+                <div class="feature-number">
+                    06
+                </div>
+
+                <h3>
+                    Filters
+                </h3>
+
+                <p>
+
+                    Users can filter results by Quran,
+                    Hadith or Bible.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+     HOW IT WORKS
+========================= -->
+
+    <section class="section project-detail-section">
+
+        <p class="section-label">
+            WORKFLOW
+        </p>
+
+
+        <h2 class="section-title">
+            How the system works
+        </h2>
+
+
+        <div class="workflow">
+
+
+            <div class="workflow-item">
+
+                <span>01</span>
+
+                <div>
+
+                    <h3>
+                        User enters a query
+                    </h3>
+
+                    <p>
+
+                        Example:
+                        "Who is the Messenger?"
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="workflow-arrow">
+                ↓
+            </div>
+
+
+            <div class="workflow-item">
+
+                <span>02</span>
+
+                <div>
+
+                    <h3>
+                        Query Processing
+                    </h3>
+
+                    <p>
+
+                        The backend processes the search query
+                        and identifies relevant concepts.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="workflow-arrow">
+                ↓
+            </div>
+
+
+            <div class="workflow-item">
+
+                <span>03</span>
+
+                <div>
+
+                    <h3>
+                        Semantic Search
+                    </h3>
+
+                    <p>
+
+                        Vector embeddings are used to retrieve
+                        semantically related information.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="workflow-arrow">
+                ↓
+            </div>
+
+
+            <div class="workflow-item">
+
+                <span>04</span>
+
+                <div>
+
+                    <h3>
+                        Knowledge Graph
+                    </h3>
+
+                    <p>
+
+                        Neo4j provides concept relationships
+                        and connected nodes.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="workflow-arrow">
+                ↓
+            </div>
+
+
+            <div class="workflow-item">
+
+                <span>05</span>
+
+                <div>
+
+                    <h3>
+                        Results
+                    </h3>
+
+                    <p>
+
+                        The application displays relevant
+                        passages, references and related concepts.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+     TECHNOLOGY
+========================= -->
+
+    <section id="technology" class="section project-detail-section">
+
+        <p class="section-label">
+            TECHNOLOGY
+        </p>
+
+
+        <h2 class="section-title">
+            Technology stack
+        </h2>
+
+
+        <div class="technology-grid">
+
+
+            <div class="technology-card">
+
+                <h3>
+                    Python
+                </h3>
+
+                <p>
+                    Core programming language
+                </p>
+
+            </div>
+
+
+            <div class="technology-card">
+
+                <h3>
+                    Django
+                </h3>
+
+                <p>
+                    Web frontend and templates
+                </p>
+
+            </div>
+
+
+            <div class="technology-card">
+
+                <h3>
+                    FastAPI
+                </h3>
+
+                <p>
+                    Backend API services
+                </p>
+
+            </div>
+
+
+            <div class="technology-card">
+
+                <h3>
+                    Neo4j
+                </h3>
+
+                <p>
+                    Knowledge graph database
+                </p>
+
+            </div>
+
+
+            <div class="technology-card">
+
+                <h3>
+                    ChromaDB
+                </h3>
+
+                <p>
+                    Vector database
+                </p>
+
+            </div>
+
+
+            <div class="technology-card">
+
+                <h3>
+                    Sentence Transformers
+                </h3>
+
+                <p>
+                    Text embeddings
+                </p>
+
+            </div>
+
+
+            <div class="technology-card">
+
+                <h3>
+                    SQL Server
+                </h3>
+
+                <p>
+                    Structured data storage
+                </p>
+
+            </div>
+
+
+            <div class="technology-card">
+
+                <h3>
+                    HTML / CSS
+                </h3>
+
+                <p>
+                    User interface
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+     ARCHITECTURE
+========================= -->
+
+    <section class="section project-detail-section">
+
+        <p class="section-label">
+            ARCHITECTURE
+        </p>
+
+
+        <h2 class="section-title">
+            Application architecture
+        </h2>
+
+
+        <div class="architecture-container">
+
+
+            <div class="architecture-box">
+
+                <small>
+                    USER INTERFACE
+                </small>
+
+                <h3>
+                    Django Frontend
+                </h3>
+
+            </div>
+
+
+            <div class="architecture-arrow">
+                ↓
+            </div>
+
+
+            <div class="architecture-box">
+
+                <small>
+                    API
+                </small>
+
+                <h3>
+                    FastAPI Backend
+                </h3>
+
+            </div>
+
+
+            <div class="architecture-arrow">
+                ↓
+            </div>
+
+
+            <div class="architecture-databases">
+
+
+                <div class="architecture-box">
+
+                    <small>
+                        GRAPH
+                    </small>
+
+                    <h3>
+                        Neo4j
+                    </h3>
+
+                </div>
+
+
+                <div class="architecture-box">
+
+                    <small>
+                        VECTOR
+                    </small>
+
+                    <h3>
+                        ChromaDB
+                    </h3>
+
+                </div>
+
+
+                <div class="architecture-box">
+
+                    <small>
+                        DATABASE
+                    </small>
+
+                    <h3>
+                        SQL Server
+                    </h3>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+     FIGMA PROTOTYPE
+========================= -->
+
+    <section id="prototype" class="section project-detail-section">
+
+        <p class="section-label">
+            APP DESIGN
+        </p>
+
+
+        <h2 class="section-title">
+            Interactive Figma Prototype
+        </h2>
+
+
+        <p class="prototype-description">
+
+            Explore the application interface using the
+            interactive prototype below.
+
+        </p>
+
+
+        <div class="figma-preview">
+
+            <iframe
+                src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/70xC5TvG9WCJuMzCfFcVjq?node-id=1669-162202&t=ggb4YSPEIR1LE2o3-6"
+                allowfullscreen loading="lazy">
+
+            </iframe>
+
+        </div>
+
+
+        <div class="prototype-button-container">
+
+            <a href="https://www.figma.com/proto/70xC5TvG9WCJuMzCfFcVjq?node-id=1669-162202&t=ggb4YSPEIR1LE2o3-6"
+                target="_blank" rel="noopener noreferrer" class="primary-button">
+
+                Open Full Prototype
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+     MY ROLE
+========================= -->
+
+    <section class="section project-detail-section">
+
+        <p class="section-label">
+            MY ROLE
+        </p>
+
+
+        <h2 class="section-title">
+            What I worked on
+        </h2>
+
+
+        <div class="role-container">
+
+
+            <div class="role-item">
+                Python backend development
+            </div>
+
+
+            <div class="role-item">
+                Django frontend development
+            </div>
+
+
+            <div class="role-item">
+                FastAPI API development
+            </div>
+
+
+            <div class="role-item">
+                Neo4j graph integration
+            </div>
+
+
+            <div class="role-item">
+                Semantic search implementation
+            </div>
+
+
+            <div class="role-item">
+                Vector database integration
+            </div>
+
+
+            <div class="role-item">
+                UI implementation
+            </div>
+
+
+            <div class="role-item">
+                Search system development
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+     NEXT PROJECT
+========================= -->
+
+    <section class="project-bottom">
+
+        <p>
+            Interested in seeing more of my work?
+        </p>
+
+        <h2>
+            Explore my portfolio.
+        </h2>
+
+
+        <a href="index.html#projects" class="primary-button">
+            View All Projects
+        </a>
+
+    </section>
+
+
+
+    <!-- =========================
+     FOOTER
+========================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Tariq. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
